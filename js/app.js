@@ -3,6 +3,9 @@
 Help from:
 https://tiny.cc/MemoryGameResources
 Matt C tutuorial and Mike W webinar
+For modal using:
+sweetalert
+https://lipis.github.io/bootstrap-sweetalert/
 */
 /*
  * Create a list that holds all of your cards
