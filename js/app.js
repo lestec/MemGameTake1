@@ -189,11 +189,14 @@ function checkScore() {
         hideStar();
     }
 }
-//Trying to get stars to wk in modal
+/* 
+Trying to get stars to wk in modal
+Below (const stars) only works inside fx, outside it moves star count up and modal
+does not show up
 const stars = document.querySelectorAll('.stars li');
-
+*/
 function hideStar() {
-    //const stars = document.querySelectorAll('.stars li');
+    const stars = document.querySelectorAll('.stars li');
     for (star of stars){
         if (star.style.display !== 'none') {
             star.style.display = 'none';
