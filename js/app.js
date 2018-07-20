@@ -245,7 +245,7 @@ function endGame() {
 		allowOutsideClick: false,
 		title: 'Congratulations! You Won!',
     /*trying to get stars to wk*/
-    text: 'With ' + moves + ' Moves and ' + finalStars + ' Rating\n Plus ' + time + ' Seconds on the Clock.\n Great job!' ,
+    text: 'With ' + moves + ' Moves and ' + finalStars + ' Star Rating\n Plus ' + time + ' Seconds on the Clock.\n Great job!' ,
 		type: 'success',
     confirmButtonColor: '#02ccba',
 		confirmButtonText: 'Play Again!'
