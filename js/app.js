@@ -221,7 +221,12 @@ function finalTime() {
 const finalStars = document.querySelectorAll('.stars li');
 finalStars.innerHTML = `Stars = ${stars}`;
 */
-
+/*
+only working in modal if I set finalStars outside of function, if I don't
+the modal does not show up--Prob only grabbing what its set to ex:
+let finalStars=3; It always comes up as three not the count of stars.
+*/
+let findStars = 3;
  function starCount() {
     findStars = document.querySelectorAll('.stars li');
     finalStars = 0;
