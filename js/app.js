@@ -247,7 +247,8 @@ let finalStars = 3;
 /*trying to test 
 wks when cards are all matched by itself but will not work 
 inside gameOver fx*/
-/* testing */
+/*Update adding if statement to get button to work, tried to select it with its class
+but continued to get null value when querySelected .swal2-confirm and tried to add click onto */
 function endGame() {
   stopClock();
   swal({
@@ -259,5 +260,9 @@ function endGame() {
 		type: 'success',
     confirmButtonColor: '#02ccba',
 		confirmButtonText: 'Play Again!'
-	})
+	}).then(function(isConfirm) {
+		if (isConfirm) {
+			gameReset();
+		}
+	});
 }
