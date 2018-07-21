@@ -185,7 +185,7 @@ function addMove() {
 
 //remove stars based on move counts
 function checkScore() {
-    if(moves === 12 || moves === 22 || moves === 32)  {
+    if(moves === 12 || moves === 24)  {
         hideStar();
     }
 }
@@ -194,13 +194,15 @@ Trying to get stars to wk in modal
 Below (const stars) only works inside fx, outside it moves star count up and modal
 does not show up
 const stars = document.querySelectorAll('.stars li');
+--adding finalStars-- here to get finalStar number to show up correctly--
 */
 function hideStar() {
     const stars = document.querySelectorAll('.stars li');
     for (star of stars){
         if (star.style.display !== 'none') {
             star.style.display = 'none';
-            break;
+		finalStars--;//decrease count of stars after hiding	
+            	break;
         }
     }
 }
@@ -232,7 +234,7 @@ let finalStars=3; It always comes up as three not the count of stars.
 let finalStars = 3;
  function starCount() {
     findStars = document.querySelectorAll('.stars li');
-    finalStars = 0;
+    //finalStars = 0;// testing without this to see if can have final stars show up correctly
     for (findStar of findStars) {
       if (findStar.style.display !== 'none') {
         finalStars++;
