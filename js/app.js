@@ -56,7 +56,7 @@ let time = 0;
 let clockId;
 //track matched cards
 //****REMEMBER TO CHANGE BK--TESTING
-let matched = 7;
+let matched = 0;
 //eval if 8 pairs to win game
 let allMatch = 8;
 // selects restart game not sure if add here
