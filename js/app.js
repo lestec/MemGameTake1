@@ -185,7 +185,7 @@ function addMove() {
 
 //remove stars based on move counts
 function checkScore() {
-    if(moves === 12 || moves === 24)  {
+    if(moves === 20 || moves === 32)  {
         hideStar();
     }
 }
