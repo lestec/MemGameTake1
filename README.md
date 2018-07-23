@@ -22,26 +22,25 @@ To play the game click [here](https://lestec.github.io/MemGameTake1/) to see a l
 1. Download or clone repository and open index.html in your browser.
 
 ## Built With:
-HTML,CSS,JavaScript
-Bootstrap
+HTML,CSS,JavaScript, and Bootstrap
 
 ## Resources used to create the game:
 
 ## Game setup help:
-	* Mike W video: 
+Mike W video: 
 	https://www.youtube.com/watch?v=_rUH-sEs68Y
 
 ## Timer:
-	* Matt C. Tutorial: 
+Matt C. Tutorial: 
 	https://matthewcranford.com/memory-game-walkthrough-part-6-the-clock/
 
 ## Modal:
-	* sweetalert2: 
+sweetalert2: 
 	https://sweetalert2.github.io/
 	https://sweetalert.js.org/
 
 ## Other resources:
-	https://tiny.cc/MemoryGameResources
+https://tiny.cc/MemoryGameResources
 
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
